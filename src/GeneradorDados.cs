@@ -13,6 +13,11 @@ namespace GeneradorDados
 
             return random.Next(1, caras + 1);
         }
+
+        public static int LanzarDado12()
+        {
+            return random.Next(1, 13);
+        }
     }
 }
 
